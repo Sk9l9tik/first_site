@@ -7,4 +7,41 @@
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*header*/
+.navigation{
+    padding-top: 35px;
+    margin-bottom: 72px;
+}
+
+/*center centent*/
+.promo h1{
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 800;
+    margin-bottom: 28px;
+}
+.promo p{
+    margin-bottom: 262px;
+}
+
+.promo h1 span{
+    color:rgb(241, 128, 48);
+}
+
+.promo-bg{
+    height: 628px;
+    background: url("/png/background.png") center no-repeat;
+}
+
+.promo_list li{
+    display: flex;
+    align-items: center;
 }
