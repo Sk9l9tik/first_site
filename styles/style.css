@@ -46,5 +46,35 @@ ul{
 .promo_list li{
     display: flex;
     align-items: center;
+	gap: 12px;
+	margin-bottom: 8px;
+}
+
+.promo_list li:last-child{
+	margin-bottom:0;
 }
 /*конец стилей главного блока*/
+/*Стили для блока с проектами*/
+.prohects h2{
+	font-weight: 800;
+	font-size:40px;
+	margin-bottom: 40px;
+}
+.projects .projects__card img{
+	border-radius: 15px;
+	margin-bottom: 12px;
+	margin-bottom: 6px;
+}
+
+.projects .projects__card a{	
+	font-weight: 800;
+	font-size: 18px;
+	color: #FFa239;
+	text-decoration:none;
+	display:inline-block;
+	margin-bottom: 6px;
+}
+
+.projects .projects__card a:hover{
+	text-decoration:underline;
+}	
