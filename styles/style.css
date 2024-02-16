@@ -8,6 +8,7 @@ body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    color: #0C2836;
 }
 ul{
     list-style: none;
@@ -38,10 +39,12 @@ ul{
 
 .promo-bg{
     height: 628px;
-    background: url("/png/background.png") center no-repeat;
+    background: url("../png/background.png") center no-repeat;
+   
 }
 
 .promo_list li{
     display: flex;
     align-items: center;
 }
+/*конец стилей главного блока*/
