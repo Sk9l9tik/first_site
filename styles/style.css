@@ -4,17 +4,39 @@
     box-sizing: border-box;
     /*@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');*/
 }
+
+body, p, h1,h2,h3,h4,h5,ul{
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*настройка основных стилей*/
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #0C2836;
 }
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+
+
+h1 {
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 800;
+    margin-bottom: 28px;
 }
+
+h2 {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
 
 /*header*/
 .navigation{
@@ -22,13 +44,7 @@ ul{
     margin-bottom: 72px;
 }
 
-/*center centent*/
-.promo h1{
-    font-size: 48px;
-    line-height: 120%;
-    font-weight: 800;
-    margin-bottom: 28px;
-}
+
 .promo p{
     margin-bottom: 262px;
 }
@@ -53,13 +69,10 @@ ul{
 .promo_list li:last-child{
 	margin-bottom:0;
 }
-/*конец стилей главного блока*/
+
+
 /*Стили для блока с проектами*/
-.prohects h2{
-	font-weight: 800;
-	font-size:40px;
-	margin-bottom: 40px;
-}
+
 .projects .projects__card img{
 	border-radius: 15px;
 	margin-bottom: 12px;
@@ -77,4 +90,65 @@ ul{
 
 .projects .projects__card a:hover{
 	text-decoration:underline;
-}	
+}
+
+/*Стили для блока с технологиями*/
+
+.teach{
+    margin-bottom: 94px;
+}
+
+.teach .row{
+    row-gap: 24px;
+}
+
+.teach__card{
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 55px 87px 24px;
+    background: #fff;
+    border-radius: 15px;
+    display:flex;
+    box-shadow: 0 0 35px rgba(12, 40, 34, 0.12)
+}
+
+.teach__card img{
+    margin-bottom: 18px;
+}
+
+.teach__card-img-wrap{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+
+}
+
+.teach__card-name {
+    font-size: 18px;
+    color: #8a99ab;
+}
+
+
+/*Блок с фидбеком*/
+
+.feedback{
+    margin-bottom: 100px;
+}
+
+.feedback__text {
+    text-align: right;  
+    margin-right: 37px;
+}
+
+.feedback__text h2 {
+    margin-bottom: 0;
+}
+
+.feedback__text p {
+    font-size: 24px;
+    margin-right: 8px;
+}
