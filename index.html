@@ -20,8 +20,9 @@
 				<img src="./png/title_logo.png" alt="">
 			</div>
 		</div>
-		<main>
-			<section class="promo">
+	</header>
+	<main>
+		<section class="promo">
 				<div class="container">
 					<div class="promo-bg">
 						<div class="row">
@@ -43,7 +44,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="projects">
+		<section class="projects">
 				<div class="container">
 					<h2>Проекты</h2>
 					<div class="row">
@@ -71,7 +72,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="teach">
+		<section class="teach">
 				<div class="container">
 					<h2>Технологии</h2>
 					<div class="row">
@@ -143,7 +144,7 @@
 					</div>
 				</div>
 			</section>
-            <section class="feedback">
+           <section class="feedback">
                 <div class="container">
                     <div class="row">
                         <div class="col-6">
@@ -154,18 +155,18 @@
 						</div>
                         <div class="col-6">
 							<form action="/" method="post" class="form">
-								<label>
-									<textarea id="textarea" placeholder="Введите ваш запрос"></textarea>
+								<label class="mb-3">
+									<textarea id="textarea" placeholder="Введите ваш запрос" required></textarea>
 								</label>
 								<div class="form__group">
 									<label>
-										<input type="text" name="name" value="" placeholder="Ваше имя" />
+										<input type="text" name="name" value="" placeholder="Ваше имя" / required>
 									</label>
 									<label>
-										<input type="tel" name="name" value="" placeholder="+7(___)___-____" />
+										<input type="tel" name="name" value="" placeholder="+7(___)___-____" pattern="[+,0-9]{11}" maxlength="11"/ required>
 									</label>
 									<label>
-										<input type="email" name="name" value="" placeholder="" Электронная почта" />
+										<input type="email" name="name" value="" placeholder="" Электронная почта" / required>
 									</label>
 								</div>
                                 <button type="submit" class="btn-prymary">Отправить</button>
@@ -174,8 +175,34 @@
 					</div>
 				</div>
 			</section>
-		</main>
-	</header>
+	</main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+				<div class="col-4">
+					<img src="./png/title_logo.png" alt="">
+				</div>
+                <div class="col-4">
+					<ul class="footer__links">
+						<li class="footer__list-item mb-3">
+							<a href="mail:docs@osipov.digital" class="footer__links-item-link">docs@osipov.digital</a>
+						</li>
+						<li>
+							<a href="tel:79224448131" class="footer__links-item-link">+7 (922) 444-81-31</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-4">
+					<div class="footer__info">
+						г Сургут, ул. Базовая, д. 34, офис 10<br />
+						ОГРН 1238600001200<br />
+						ИНН 8602309464
+					</div>
+				</div>
+			</div>
+			<div class="footer__copyrite">ООО Дотсолюшн © 2023</div>
+		</div>
+	</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
 crossorigin="anonymous"></script>
