@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/*фидбек*/
+.feedback {
+  margin-bottom: 100px;
+}
+.feedback .feedback__text {
+  text-align: right;
+  margin-right: 37px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width: 1199px) {
+  .feedback .feedback__text {
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 40px;
+    display: block;
+  }
+}
+.feedback h2 {
+  margin-bottom: 0;
+}
+.feedback p {
+  font-size: 24px;
+  margin-right: 8px;
+  font-weight: 400;
+}
+@media screen and (max-width: 1199px) {
+  .feedback p {
+    text-align: center;
+    margin: 0;
+  }
+}
+
+.form {
+  background: white;
+  box-shadow: var(--box-shadow);
+  padding: 24px;
+  border-radius: 15px;
+}
+.form label {
+  display: block;
+}
+.form textarea, .form input {
+  display: block;
+  padding: 8px 12px;
+  border: 1px solid #d9e2eb;
+  border-radius: 10px;
+  min-height: 40px;
+  overflow: hidden;
+  outline: none;
+  width: 100%;
+}
+.form textarea::-moz-placeholder, .form input::-moz-placeholder {
+  color: #8A99A8;
+}
+.form textarea::placeholder, .form input::placeholder {
+  color: #8A99A8;
+}
+@media screen and (max-width: 424px) {
+  .form textarea, .form input {
+    margin-bottom: 16px;
+  }
+}
+.form .form__group {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 767px) {
+  .form .form__group {
+    display: block;
+  }
+  .form .form__group input {
+    margin-bottom: 10px;
+  }
+}
+.form .btn-prymary {
+  padding: 9px 60px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(90deg, #fb8501 -0.07%, #ffb703 100%);
+  transition: transform 200ms, box-shadow 200ms;
+}
+.form .btn-prymary:focus {
+  transform: scale(0.95);
+}
+.form .btn-prymary:hover {
+  box-shadow: 0 0 10px 0 #ffb003;
+}/*# sourceMappingURL=feedback.css.map */

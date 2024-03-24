@@ -60,7 +60,7 @@ h2 {
 
 .promo-bg{
     height: 628px;
-    background: url("../png/background.png") center no-repeat;
+    background: url("../../png/background.png") center no-repeat;
    
 }
 
@@ -216,16 +216,9 @@ h2 {
 
 /* футер*/
 
-.footer{
-
-}
 
 .footer__links{
     text-align:center;
-
-}
-
-.footer__list-item{
 
 }
 
