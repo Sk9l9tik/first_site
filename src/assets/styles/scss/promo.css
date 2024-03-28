@@ -30,7 +30,7 @@
   color: #FFA239;
 }
 .promo .promo-bg {
-  background: url("../../png/background.png") center no-repeat;
+  background: url("../../../../public/background.png") center no-repeat;
   background-size: contain;
 }
 @media screen and (max-width: 991px) {
